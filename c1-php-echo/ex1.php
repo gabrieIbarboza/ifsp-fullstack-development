@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 01</title>
     <style>
-        body {color: #f2f2f2; background-color: #000;}
+        body {color: #f2f2f2; background-color: #141414;}
         h1 {text-align: center; color: #fff;}
         p {color: #e2ebeb; font-size: 16px}
     </style>

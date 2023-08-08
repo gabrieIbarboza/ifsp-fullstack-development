@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 02</title>
     <style>
-        .container {background-color: #10a7bb; margin-left: 33%; margin-right: 33%; margin-top: 12vw; padding: 1%}
+        .container {background-color: #10a7bb; display: block; margin: auto; width: 100%; max-width: 500px; margin-top: 12vw; padding: 10px}
         h1 {text-align: center; color: black; margin: 0;}
         p {color: #e2ebeb; font-size: 17px}
         h4 {color: #0000ff; text-decoration: underline}
