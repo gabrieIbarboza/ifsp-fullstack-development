@@ -1,8 +1,3 @@
-<?php
-    $c1 = $_REQUEST["slcCondition1"];
-    $c2 = $_REQUEST["slcCondition2"];
-?>
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -12,7 +7,9 @@
 </head>
 <body>
 <?php
-    if($c1 == "faixaokay" || "faixaerrado")
+    $c1 = $_GET["slcCondition1"];
+    $c2 = $_GET["slcCondition2"];
+    if($c1 == "faixaokay" || $c1 == "faixaerrado")
     {
         if($c1 == "faixaokay" && $c2 == "semaforookay")
         {
@@ -23,7 +20,7 @@
         }
     }
     else {
-        $c3 = $_REQUEST["slcCondition3"];
+        $c3 = $_GET["slcCondition3"];
         if($c1 == "cintookay" && $c2 == "alcoolokay" && $c3 == "semaforookay")
         {
             echo "Você pode dirigir!";

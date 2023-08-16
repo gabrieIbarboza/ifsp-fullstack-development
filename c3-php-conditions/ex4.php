@@ -1,7 +1,7 @@
 <?php
 
-    $weight = $_RESQUEST["inpWeight"];
-    $height = $_RESQUEST["inpHeight"];
+    $weight = $_GET["inpWeight"];
+    $height = $_GET["inpHeight"];
     $imc = $weight / ($height ** 2);
 
     echo "O seu IMC é " . number_format($imc, 2);

@@ -8,10 +8,10 @@
 <body>
     <form action="ex4.php" method="get">
         <label for="inpWeight">Informe seu peso (kg): </label>
-        <input type="number" step="0.01" name="inpWeight" id="inpWeight" placeholder="Informe seu peso (kg)">
+        <input type="number" step="0.01" min="0.01" max="500" name="inpWeight" id="inpWeight" placeholder="Informe seu peso (kg)">
         <br>
         <label for="inpHeight">Informe sua altura (m): </label>
-        <input type="number" step="0.01" name="inpHeight" id="inpHeight" placeholder="Informe sua altura (m)">
+        <input type="number" step="0.01" min="0.01" max="3" name="inpHeight" id="inpHeight" placeholder="Informe sua altura (m)">
         <input type="submit" value="Enviar">
     </form>
 </body>
