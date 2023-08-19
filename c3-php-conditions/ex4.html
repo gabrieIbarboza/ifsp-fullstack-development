@@ -4,6 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio 4</title>
+    <style>
+        form {
+            background-color: #212269;
+            border-radius: 25px;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            margin: 0 auto;
+            padding: 20px;
+            width: 300px;
+        }
+
+        form label {
+            color: aliceblue;
+            font-size: 1.2rem;
+        }
+
+        form select, input {
+            background-color: aliceblue;
+            height: 40px;
+            margin-top: 10px;
+        }
+
+        form select:focus {
+            border: solid 2px darkgray;
+        }
+
+        form input[type="submit"] {
+            background-color: aliceblue;
+            border: 0;
+            color: #212269;
+            font-size: 1.1rem;
+            width: 150px;
+        }
+    </style>
 </head>
 <body>
     <form action="ex4.php" method="get">
