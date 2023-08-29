@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+
+    <style>
+        form {
+            background-color: #212269;
+            border-radius: 25px;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            margin: 0 auto;
+            padding: 20px;
+            width: 300px;
+        }
+
+        form label {
+            color: aliceblue;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        form select, input {
+            background-color: aliceblue;
+            height: 40px;
+            width: 100%;
+        }
+        form select:focus {
+            border: solid 2px darkgray;
+        }
+
+        form input[type="submit"] {
+            background-color: aliceblue;
+            border-radius: 5px;
+            border: 0;
+            color: #212269;
+            font-size: 1.1rem;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <form method="get" action="ex2.php">
+        <label>Nome: 
+            <input type="text" name="inpName" id="inpName" placeholder="Nome" required>
+        </label>
+        <label> Idade:
+            <input type="number" name="inpAge" id="inpAge" min="1" max="90" required>
+        </label>
+        <input type="submit" value="Enviar"></input>
+    </form>
+</body>
+</html>
